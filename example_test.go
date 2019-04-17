@@ -17,9 +17,9 @@ package zipkin_test
 import (
 	"log"
 
+	"contrib.go.opencensus.io/exporter/zipkin"
 	openzipkin "github.com/openzipkin/zipkin-go"
 	"github.com/openzipkin/zipkin-go/reporter/http"
-	"go.opencensus.io/exporter/zipkin"
 	"go.opencensus.io/trace"
 )
 
