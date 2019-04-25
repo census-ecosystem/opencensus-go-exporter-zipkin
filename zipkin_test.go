@@ -108,7 +108,7 @@ func TestExport(t *testing.T) {
 					},
 					{
 						Timestamp: now,
-						Value:     "SENT",
+						Value:     "Sent 99 bytes",
 					},
 				},
 				Tags: map[string]string{
